@@ -13,7 +13,7 @@ include_scripts: [
 <table id="table">
   {% for book in site.data.books %}
    <tr>
-      <td><a href="{{ book.title | datapage_url: 'all-books' }}">{{book.title}}</a></td>
+      <td><a href="{{ book.title | datapage_url: 'all-books' }}">{{ book.title }}</a></td>
       <td>{{ book.year }}</td>
       <td style="display:none;">{{ book.author }}</td>
    </tr>
