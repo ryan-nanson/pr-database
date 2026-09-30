@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% if page.include_scripts %}
+      {% for include_script in page.include_scripts %}
+        <script type='text/javascript' src='{{ include_script }}'></script>
+      {% endfor %}
+    {% endif %}
+
+  </body>
+  
+
+</html>
