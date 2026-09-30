@@ -31,7 +31,7 @@ github_username:  exmaple
 theme: minima
 
 plugins:
-  - jekyll-feed
+  - jekyll-datapage-generator
 
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
 
