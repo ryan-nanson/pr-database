@@ -4,7 +4,7 @@ layout: home
 include_scripts: [
   "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js",
   "https://d3js.org/d3.v5.min.js",
-  "/assets/js/search.js"
+  "assets/js/search.js"
 ]
 ---
 <h2>List of Prose Romances</h2>
